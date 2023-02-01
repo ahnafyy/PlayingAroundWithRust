@@ -18,3 +18,14 @@
 fn main() {
     println!("Hello, world!");
 }
+
+// You can run this by using rustc to compile and link it and then running the resulting executable:
+// $ rustc main.rs
+// $ ./main
+// Hello, world!
+
+// You can also use cargo run to compile and run your code:
+// $ cargo run
+//    Compiling hello_rust v0.1.0 (file:///home/you/projects/hello_rust)
+//     Running `target/debug/hello_rust`
+// Hello, world!
